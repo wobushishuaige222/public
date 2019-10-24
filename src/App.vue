@@ -10,6 +10,11 @@ import imgZoom from '@/components/imgZoom'
 import helloWorld from '@/components/HelloWorld'
 export default {
   name: 'App',
+  data() {
+    return {
+      key: 111
+    }
+  },
   components: {
     imgZoom,
     helloWorld
